@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CalculadorCalorias.jnlp">
+  <information>
+    <title>CalculadorCalorias</title>
+    <vendor>Pablo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CalculadorCalorias.jar" size="83537" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="calculadorcalorias.CalculadorCalorias"  name="CalculadorCalorias" />
+  <update check="always"/>
+</jnlp>

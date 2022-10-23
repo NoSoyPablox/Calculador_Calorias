@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.0" prefWidth="594.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="calculadorcalorias.FXMLCalculadoraCaloriasController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fitHeight="402.0" fitWidth="594.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/Interfaz.PNG" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="rbPocaActividad" layoutX="419.0" layoutY="120.0" mnemonicParsing="false" onAction="#clicPocaActividad" text="Poca actividad" />
+      <RadioButton fx:id="rbEjercicioLigero" layoutX="419.0" layoutY="157.0" mnemonicParsing="false" onAction="#clicEjercioLigero" text="Ejercicio ligero" />
+      <RadioButton fx:id="rbEjercicioModerado" layoutX="419.0" layoutY="197.0" mnemonicParsing="false" onAction="#clicEjercicioModerado" text="Ejercicio moderado" />
+      <RadioButton fx:id="rbDeporteRegular" layoutX="419.0" layoutY="238.0" mnemonicParsing="false" onAction="#clicDeporteRegular" text="Deporte regular" />
+      <RadioButton fx:id="rbDeportistaElite" layoutX="419.0" layoutY="284.0" mnemonicParsing="false" onAction="#clicDeportistaElite" text="Deportista de élite" />
+      <ComboBox fx:id="cbGenero" layoutX="138.0" layoutY="182.0" prefHeight="25.0" prefWidth="143.0" promptText="Femenino" />
+      <ComboBox fx:id="cbEdad" layoutX="138.0" layoutY="216.0" prefHeight="25.0" prefWidth="143.0" promptText="Selecciona tu edad" />
+      <TextField fx:id="tfEstatura" layoutX="138.0" layoutY="251.0" prefHeight="25.0" prefWidth="143.0" />
+      <TextField fx:id="tfPesoActual" layoutX="138.0" layoutY="285.0" prefHeight="25.0" prefWidth="143.0" />
+      <Button fx:id="btnCalcular" layoutX="81.0" layoutY="340.0" mnemonicParsing="false" onAction="#calcularCalorias" prefHeight="46.0" prefWidth="228.0" text="Calcula las calorías que requieres &gt;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="401.0" layoutY="347.0" stroke="#4e8dd0" strokeType="INSIDE" width="143.0" />
+      <Label fx:id="lbCalorias" layoutX="446.0" layoutY="350.0" text="Por día" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
