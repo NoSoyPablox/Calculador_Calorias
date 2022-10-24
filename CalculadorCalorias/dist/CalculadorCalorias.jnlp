@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CalculadorCalorias.jar" size="83537" download="eager" />
+    <jar href="CalculadorCalorias.jar" size="83539" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="calculadorcalorias.CalculadorCalorias"  name="CalculadorCalorias" />
   <update check="always"/>
